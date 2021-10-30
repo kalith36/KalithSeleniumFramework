@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="LeafTaps Application Automation TestSuite" duration-ms="23276" started-at="2021-10-30T18:57:31 IST" finished-at="2021-10-30T18:57:55 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper,cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.qa.testcases.HomePageTest@5997b1]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Leaftaps Automation Tests" duration-ms="23276" started-at="2021-10-30T18:57:31 IST" finished-at="2021-10-30T18:57:55 IST">
+      <class name="com.qa.testcases.HomePageTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.qa.testcases.HomePageTest@5997b1]" name="setUpClass" is-config="true" duration-ms="186" started-at="2021-10-30T18:57:31 IST" finished-at="2021-10-30T18:57:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testcases.HomePageTest@5997b1]" name="setup" is-config="true" duration-ms="5957" started-at="2021-10-30T18:57:32 IST" finished-at="2021-10-30T18:57:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="verifyHomePageTitleTest()[pri:1, instance:com.qa.testcases.HomePageTest@5997b1]" name="verifyHomePageTitleTest" duration-ms="17" started-at="2021-10-30T18:57:38 IST" finished-at="2021-10-30T18:57:38 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Home Page Title is not matched expected [Leaftap - TestLeaf Automation Platform] but found [Leaftaps - TestLeaf Automation Platform]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Home Page Title is not matched expected [Leaftap - TestLeaf Automation Platform] but found [Leaftaps - TestLeaf Automation Platform]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at com.qa.testcases.HomePageTest.verifyHomePageTitleTest(HomePageTest.java:40)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at org.testng.TestRunner$$Lambda$98/33040599.accept(Unknown Source)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testcases.HomePageTest@5997b1]" name="tearDown" is-config="true" duration-ms="456" started-at="2021-10-30T18:57:38 IST" finished-at="2021-10-30T18:57:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testcases.HomePageTest@5997b1]" name="setup" is-config="true" duration-ms="5866" started-at="2021-10-30T18:57:38 IST" finished-at="2021-10-30T18:57:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyLogoutTest()[pri:2, instance:com.qa.testcases.HomePageTest@5997b1]" name="verifyLogoutTest" duration-ms="331" started-at="2021-10-30T18:57:44 IST" finished-at="2021-10-30T18:57:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoutTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testcases.HomePageTest@5997b1]" name="tearDown" is-config="true" duration-ms="128" started-at="2021-10-30T18:57:45 IST" finished-at="2021-10-30T18:57:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testcases.HomePageTest@5997b1]" name="setup" is-config="true" duration-ms="5075" started-at="2021-10-30T18:57:45 IST" finished-at="2021-10-30T18:57:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyCRMSFALinkTest()[pri:3, instance:com.qa.testcases.HomePageTest@5997b1]" name="verifyCRMSFALinkTest" duration-ms="2853" started-at="2021-10-30T18:57:50 IST" finished-at="2021-10-30T18:57:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCRMSFALinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testcases.HomePageTest@5997b1]" name="tearDown" is-config="true" duration-ms="2068" started-at="2021-10-30T18:57:53 IST" finished-at="2021-10-30T18:57:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.qa.testcases.HomePageTest@5997b1]" name="tearDownClass" is-config="true" duration-ms="21" started-at="2021-10-30T18:57:55 IST" finished-at="2021-10-30T18:57:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.qa.testcases.HomePageTest -->
+    </test> <!-- Leaftaps Automation Tests -->
+  </suite> <!-- LeafTaps Application Automation TestSuite -->
+</testng-results>

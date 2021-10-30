@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="LeafTaps Application Automation TestSuite">
+
+	<listeners>
+		<listener class-name="com.qa.util.TestListener" />
+	</listeners>
+	<test name="Leaftaps Automation Tests">
+		<classes>
+			<class name="com.qa.testcases.LoginPageTest" />
+			<class name="com.qa.testcases.HomePageTest" />
+			<class name="com.qa.testcases.MyHomePageTest" />
+			<class name="com.qa.testcases.CreateContactsPageTest" />
+
+
+		</classes>
+	</test> <!-- Leaftaps Automation Tests -->
+</suite> <!-- LeafTapsApplicationAutomation -->
