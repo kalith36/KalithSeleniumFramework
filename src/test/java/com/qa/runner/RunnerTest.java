@@ -10,7 +10,8 @@ import cucumber.api.CucumberOptions;
 		features="src/test/java/com/qa/features/login.feature",
 		glue= {"com.qa.steps"},
 		monochrome=true,
-		dryRun= false
+		dryRun= false,
+		plugin= {"pretty"}
 		)
 
 public class RunnerTest extends TestUtil {
